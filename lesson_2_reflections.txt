@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 IT creates .git directory.  This lets git know that it will need to track some files in the directory.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can add all the files that relate to that logical change in the staging area and commit those with one commit message.
