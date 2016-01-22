@@ -9,3 +9,7 @@ I can add all the files that relate to that logical change in the staging area a
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If there are current maintenance version and a future upgraded version of the same product. Branches would have snapshot 
 of each release.
+
+
+How do the diagrams help you visualize the branch structure?
+Very much. Shows linearity, first commit of branch, and if we have any unreachable commit.
