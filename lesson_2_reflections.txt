@@ -13,3 +13,9 @@ of each release.
 
 How do the diagrams help you visualize the branch structure?
 Very much. Shows linearity, first commit of branch, and if we have any unreachable commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merge will compare the two branches B1 and B2 
+1. If in both B1 and B2: keep
+2. If in B1 but not  in B2, either B2 deleted ir or it was not in version before the branch (Original versoin O). If in O then B2 deleted it, so remove. If not in O, then B1 added it, then keep
+3. Same as 2 but if in B2 and not in B1- compare with O to see
